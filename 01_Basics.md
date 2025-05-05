@@ -45,6 +45,12 @@ public class FileNmae {
     }
 }
 ```
+> [!NOTE]
+> For Next Line ---> **println** or **\n**
+``` java
+System.out.println("Hello World");
+System.out.print("Hello World\n");
+```
 
 
 
