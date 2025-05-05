@@ -21,5 +21,32 @@ public class FileNmae {
 }
 ```
 
+# # How to Run Java File
+
+**(i)** **`Compile Java File`** ---> javac FileName.java  
+**(ii)** **`Run Java File`** ---> javac FileName.java
+
+``` Java
+PS D:\Desktop\Java> javac Abhi.java
+PS D:\Desktop\Java> java Abhi.java 
+Hello World                               // File Run
+PS D:\Desktop\Java> 
+```
+
+# # Output in Java
+
+- **Syntax** ---> System.out.print("Hello World");
+
+``` java
+public class FileNmae {
+    public static void main(String args[]){
+
+        System.out.print("Hello World");                  // Output : Hello World
+    }
+}
+```
+
+
+
 
 
