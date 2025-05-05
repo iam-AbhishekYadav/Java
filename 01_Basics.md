@@ -96,16 +96,44 @@ public class Abhi {
 ## 2. Non-Primitive (Reference) Data Types
 
 - It will contain a memory address of variable values because the reference types won’t store the variable value directly in memory.
-- Types of Non-Primitive Data Types
+- Types of Non-Primitive Data Types.
   - **String**
   - **Array**
   - **Class**
   - **Interfaces**
 
 
+# # Comments in Java
 
+- **`//`** --> Single Line Comment
+- **`/* ----*/`** --> Multi Line Comment
 
+# # Input in Java
 
+- The most common way to take user input in Java is using the Scanner class.
+- It is a part of java.util package(collections framework or classes).
+
+### Steps to take user input using Scanner class :-
+
+- Import the Scanner class using **`import java.util.Scanner;`** or **`import java.util.*;`**
+- Create the Scanner object and connect Scanner with System.in by passing it as an argument i.e., **`Scanner sc = new Scanner(System.in);`**
+- Then use one of Scanner’s handy methods to the response/input :
+  - next() for single words
+  
+<img src="https://github.com/user-attachments/assets/3133df5c-4793-45d8-99a0-123cc57a37df" alt="Stack1" width="500" height="600">
+
+``` java
+import java.util.Scanner;
+public class Abhi {
+    public static void main(String args[]){
+
+        Scanner sc = new Scanner(System.in); 
+
+        String name = sc.next();
+        System.out.println(name);
+    }
+}
+```
 
 
 
