@@ -136,6 +136,32 @@ public class Abhi {
 ```
 
 
+# # Type Conversion 
+
+- The process of converting data of one data type into another is Known as Type Conversion.
+- It is also known as **`Implicit`** or **`Wideninig`** or **`Automatic`** Type Conversion.
+- Type Conversion happens when -->
+- - The two data types are compatible
+  - When we assign a value of a smaller data type to a bigger data type.
+ 
+ 
+<img src="https://github.com/user-attachments/assets/6d9ba738-c106-4ecb-93ff-835082a2e1ed" alt="Stack1" width="550" height="100">
+
+### Example --->
+
+``` java
+import java.util.Scanner;
+public class Abhi {
+    public static void main(String args[]){
+
+        Scanner sc = new Scanner(System.in); 
+
+        float number = sc.nextInt();
+        System.out.println(number);
+    }
+}
+```
+
 
 
 
