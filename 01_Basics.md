@@ -172,7 +172,7 @@ public class Abhi {
 
 <img src="https://github.com/user-attachments/assets/e0ed5421-6161-4d7b-a094-5a430d59be59" alt="Stack1" width="550" height="100">
 
-### Example --->
+### Example 1 --->
 
 ``` java
 import java.util.Scanner;
@@ -190,7 +190,75 @@ public class Abhi {
 }
 ```
 
+### Example 2 --->
 
+``` java
+import java.util.Scanner;
+public class Abhi {
+    public static void main(String args[]){
+
+        char ch = 'a';
+        char ch2 = 'b';
+
+        int num = ch;
+        int num2 = ch2;
+
+        System.out.println(num);                // Output : 97
+        System.out.println(num2);               // Output : 98
+    }
+}
+```
+
+# # Type Promotion In Expressions
+
+**1.** Java automatically promotes each **`byte`** , **`short`** , or **`char`** operand to int when evaluating an expression.
+
+### Example --->
+
+``` java
+import java.util.Scanner;
+public class Abhi {
+    public static void main(String args[]){
+
+        char a = 'a';
+        char b = 'b';
+
+        System.out.println(b-a);                      // Output : 1
+
+
+
+        short x = 25;
+        byte y = 30;
+        char z = 'z';
+
+        byte bt = (byte) (x + y + z);
+
+        System.out.println(bt);                        // Output : -79
+    }
+}
+```
+
+**2.** If one opetand is **`long`** , **`float`** or **`double`** the whole expression is promoted to **`long`** , **`float`** or **`double`** respectively
+
+### Example --->
+
+``` java
+import java.util.Scanner;
+public class Abhi {
+    public static void main(String args[]){
+
+        int a = 10;
+        float b = 20.25f;
+        long c = 25;
+        double d = 30;
+
+        long  ans = a + b + c + d;               // Error: incompatible types: possible lossy conversion from double to long
+        double  ans = a + b + c + d;            // Output : 85.25
+
+        System.out.println(ans);
+
+    }
+}
 
 
 
