@@ -156,16 +156,39 @@ import java.util.Scanner;
 public class Abhi {
     public static void main(String args[]){
 
-        Scanner sc = new Scanner(System.in); 
+        Scanner sc = new Scanner(System.in);
 
-        float number = sc.nextInt();
-        System.out.println(number);
+        float number = sc.nextInt();            // Input : 25
+        System.out.println(number);             // Output : 25.0
     }
 }
 ```
 
+# # Type Casting
 
+- If we want to assign a value of a larger data type to a smaller data type we perform Type casting .
+- It is also known as **`Explicit`** or **`Narrowing`** Type Casting.
+- This is useful for incompatible data types.
 
+<img src="https://github.com/user-attachments/assets/e0ed5421-6161-4d7b-a094-5a430d59be59" alt="Stack1" width="550" height="100">
+
+### Example --->
+
+``` java
+import java.util.Scanner;
+public class Abhi {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in); 
+
+        float a = 25.12f;
+        
+        int b = a;                          // Error: incompatible types: possible lossy conversion from float to int
+        int b = (int) a ;
+
+        System.out.println(b);            // Output : 25
+    }
+}
+```
 
 
 
