@@ -129,8 +129,8 @@ public class Abhi {
 
         Scanner sc = new Scanner(System.in); 
 
-        String name = sc.next();
-        System.out.println(name);
+        String name = sc.next();                   // Input : Abhishek Yadav
+        System.out.println(name);                  // Output : Abhishek Yadav
     }
 }
 ```
