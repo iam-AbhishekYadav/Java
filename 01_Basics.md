@@ -59,6 +59,7 @@ System.out.print("Hello World\n");
 
 <img src="https://github.com/user-attachments/assets/5c4738a0-8cb3-421c-a57b-c57c26810542" alt="Stack1" width="400" height="300">
 
+### Example --->
 ``` java
 public class Abhi {
     public static void main(String args[]){
@@ -122,6 +123,7 @@ public class Abhi {
   
 <img src="https://github.com/user-attachments/assets/3133df5c-4793-45d8-99a0-123cc57a37df" alt="Stack1" width="500" height="600">
 
+### Example --->
 ``` java
 import java.util.Scanner;
 public class Abhi {
