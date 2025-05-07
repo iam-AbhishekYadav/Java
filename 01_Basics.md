@@ -236,7 +236,7 @@ public class Abhi {
 
 **2.** If one opetand is **`long`** , **`float`** or **`double`** the whole expression is promoted to **`long`** , **`float`** or **`double`** respectively
 
-### Example --->
+### Example 1 --->
 
 ``` java
 public class Abhi {
@@ -256,3 +256,17 @@ public class Abhi {
 }
 ```
 
+### Example 2 --->
+
+``` java
+public class Abhi {
+    public static void main(String args[]){
+
+        byte b = 5;
+
+        byte a = b*2;                           // Error: incompatible types
+        byte a = (byte) (b*2);
+
+        System.out.println(a);                   // Output : 10
+    }
+}
