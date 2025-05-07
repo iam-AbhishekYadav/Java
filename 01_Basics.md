@@ -57,7 +57,7 @@ System.out.print("Hello World\n");
 - The name of memory location that we use to store data.
 - It is Mutable
 
-<img src="https://github.com/user-attachments/assets/5c4738a0-8cb3-421c-a57b-c57c26810542" alt="Stack1" width="500" height="300">
+<img src="https://github.com/user-attachments/assets/5c4738a0-8cb3-421c-a57b-c57c26810542" alt="Stack1" width="400" height="300">
 
 ``` java
 public class Abhi {
