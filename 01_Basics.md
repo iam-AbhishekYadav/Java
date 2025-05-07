@@ -175,10 +175,8 @@ public class Abhi {
 ### Example 1 --->
 
 ``` java
-import java.util.Scanner;
 public class Abhi {
     public static void main(String args[]){
-        Scanner sc = new Scanner(System.in); 
 
         float a = 25.12f;
         
@@ -193,7 +191,6 @@ public class Abhi {
 ### Example 2 --->
 
 ``` java
-import java.util.Scanner;
 public class Abhi {
     public static void main(String args[]){
 
@@ -216,7 +213,6 @@ public class Abhi {
 ### Example --->
 
 ``` java
-import java.util.Scanner;
 public class Abhi {
     public static void main(String args[]){
 
@@ -243,7 +239,6 @@ public class Abhi {
 ### Example --->
 
 ``` java
-import java.util.Scanner;
 public class Abhi {
     public static void main(String args[]){
 
