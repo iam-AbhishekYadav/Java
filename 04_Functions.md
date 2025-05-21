@@ -79,7 +79,11 @@ public class Abhi {
     }
 }
 ```
-<img src="" alt="Stack1" width="600" height="350">
+**1**
+<img src="https://github.com/user-attachments/assets/aa453022-2c57-4add-9499-c1d617a17ff6" alt="Stack1" width="350" height="600">
+**2**
+<img src="https://github.com/user-attachments/assets/941733f5-8d7d-46dd-9573-c4809de01e7a" alt="Stack1" width="350" height="600">
+
 
 ### Example 1 ---> Swap in Function
 
