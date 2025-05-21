@@ -6,7 +6,7 @@
 
 # # Syntax
 
-<img src="https://github.com/user-attachments/assets/ccdbed11-caa6-48b2-bdb1-cd0fc9e19f5b" alt="Stack1" width="550" height="300">
+<img src="https://github.com/user-attachments/assets/ccdbed11-caa6-48b2-bdb1-cd0fc9e19f5b" alt="Stack1" width="600" height="350">
 
 
 ### Key Components of a Method Declaration
@@ -16,5 +16,6 @@
 - **`Method Name`** : It follows Java naming conventions; it should start with a lowercase verb and use camel case for multiple words.
 - **`Parameters`** : A list of input values (optional). Empty parentheses are used if no parameters are needed.
 - **`Method Body`** : It contains the logic to be executed (optional in the case of abstract methods).
+
 
 
