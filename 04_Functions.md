@@ -17,7 +17,7 @@
 - **`Parameters`** : A list of input values (optional). Empty parentheses are used if no parameters are needed.
 - **`Method Body`** : It contains the logic to be executed (optional in the case of abstract methods).
 
-### Example --->
+### Example 1 --->
 
 ``` Java
 public class Abhi {
@@ -29,6 +29,29 @@ public class Abhi {
     public static void main(String args[]){
 
         printMessage();                          // Function Call      // Output : Hello My name is Scahin
+    }
+}
+```
+
+### Example 2 ---> With Parameters
+
+``` Java
+import java.util.*;
+public class Abhi {
+    public static int calulateSum(int num1 , int num2){
+        int sum = num1 +num2;
+
+        return sum;
+    }
+    public static void main(String args[]){
+
+        Scanner sc = new Scanner(System.in);
+
+        int a = sc.nextInt();                         // Input : 2
+        int b = sc.nextInt();                         // Input : 5
+        int sum = a + b;
+
+        System.err.println("Sum is :" +sum);         // Output : 7
     }
 }
 ```
