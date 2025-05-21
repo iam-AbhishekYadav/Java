@@ -234,7 +234,7 @@ public class Abhi {
 }
 ```
 
-**2.** If one opetand is **`long`** , **`float`** or **`double`** the whole expression is promoted to **`long`** , **`float`** or **`double`** respectively
+**2.** If one operand is **`long`** , **`float`** or **`double`** the whole expression is promoted to **`long`** , **`float`** or **`double`** respectively
 
 ### Example 1 --->
 
@@ -270,3 +270,24 @@ public class Abhi {
         System.out.println(a);                   // Output : 10
     }
 }
+```
+
+# # How JAVA Code is Running ?
+
+<img src="https://github.com/user-attachments/assets/cff06130-8f3a-4c84-bd27-ad7e5289b89f" alt="Stack1" width="550" height="300">
+
+## Working of Java Code
+<img src="https://github.com/user-attachments/assets/e41c2d1d-e24c-409f-a10c-e98b39b959c8" alt="Stack1" width="650" height="400">
+
+
+
+
+
+
+
+
+
+
+
+
+
