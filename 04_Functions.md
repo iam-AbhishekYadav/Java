@@ -38,9 +38,8 @@ public class Abhi {
 ``` Java
 import java.util.*;
 public class Abhi {
-    public static int calulateSum(int num1 , int num2){
+    public static int calulateSum(int num1 , int num2){         // Parameters or Formal Parametes
         int sum = num1 +num2;
-
         return sum;
     }
     public static void main(String args[]){
@@ -49,7 +48,7 @@ public class Abhi {
 
         int a = sc.nextInt();                         // Input : 2
         int b = sc.nextInt();                         // Input : 5
-        int sum = a + b;
+        int sum = calulateSum(a, b);                  // Arguments or Actual Parameters
 
         System.err.println("Sum is :" +sum);         // Output : 7
     }
