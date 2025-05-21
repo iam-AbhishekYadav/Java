@@ -55,3 +55,72 @@ public class Abhi {
 }
 ```
 
+# # Call by Value in Java
+
+- A copy of actual parameters is passed into formal parameters.
+- Changes in formal parameters will not result in changes in actual parameters.
+- Separate memory location is allocated for actual and formal parameters.
+- **Java is always calls by value.**
+
+### Example 1 ---> Swap - Values Exchange
+
+``` java
+public class Abhi {
+    public static void main(String args[]){
+        int a = 5;
+        int b = 10;
+
+        int temp = a;
+        a = b ;
+        b = temp ;
+
+        System.err.println("a = " +a);          // Output : a = 10
+        System.err.println("b = " +b);          // Output : b = 5
+    }
+}
+```
+<img src="" alt="Stack1" width="600" height="350">
+
+### Example 1 ---> Swap in Function
+
+``` java
+public class Abhi {
+    public static void swap(int a,int b){
+        int temp = a;
+        a = b ;
+        b = temp ;
+
+        System.err.println("a = " +a);                     // Output : a = 10
+        System.err.println("b = " +b);                     // Output : b = 5
+
+    }
+    public static void main(String args[]){
+        int a = 5;
+        int b = 10;
+
+        swap(a,b);
+
+        // System.err.println("a = " +a);                     // Output : a = 5
+       //  System.err.println("b = " +b);                     // Output : a = 10
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
