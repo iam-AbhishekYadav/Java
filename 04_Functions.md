@@ -17,5 +17,19 @@
 - **`Parameters`** : A list of input values (optional). Empty parentheses are used if no parameters are needed.
 - **`Method Body`** : It contains the logic to be executed (optional in the case of abstract methods).
 
+### Example --->
 
+``` Java
+public class Abhi {
+    public static void printMessage(){
+        System.err.println("Hello My name is Scahin");
+
+        return ;
+    }
+    public static void main(String args[]){
+
+        printMessage();                          // Function Call      // Output : Hello My name is Scahin
+    }
+}
+```
 
