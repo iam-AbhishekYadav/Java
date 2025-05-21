@@ -110,6 +110,24 @@ public class Abhi {
 }
 ```
 
+# # Types of Functions / Methods
+
+**-->** There are two types of Function in Java.
+
+### 1. Predefined Method  
+
+- The method that is already defined in the Java class libraries.
+- It is also known as the standard library method or built-in method.
+
+**Ex -->** random() , Math() , sc.nextInt() ....etc.
+
+### 2. User-defined Method  
+
+- The method written by the user or programmer.
+- These methods are modified according to the requirement.
+
+**Ex -->** sum , factorial , product ....etc.
+
 
 
 
