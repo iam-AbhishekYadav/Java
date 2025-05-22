@@ -129,6 +129,7 @@ public class Abhi{
 
 ### Approach for problem solving
 
+- Use Matrice to solve.
 - Boundary ---> **Row = 1 or 4**  and **Column = 1 or 5**
 - Outer Loop ---> Total Lines (Rows)
 - Inner Loop ---> Total Columns 
@@ -157,7 +158,16 @@ public class Abhi{
         hollow_Rect(4,5);
     }
 }
-``` 
+```
+
+# # Inverted & Rotated Half - Pyramid
+
+<img src="https://github.com/user-attachments/assets/12bb5958-b1d2-4da7-9389-f652eda1cd3b"  width="200" height="200">
+
+### Approach for problem solving
+
+
+
 
 
 
