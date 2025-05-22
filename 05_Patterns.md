@@ -1,11 +1,8 @@
-# # Patterns 
+# # Patterns Printing Questions
 
 # # Square Pattern
 
-****
-****
-****
-****
+<img src="https://github.com/user-attachments/assets/dda082db-0303-45bb-99dc-f873e6e0b20c"  width="200" height="200">
 
 ``` java
 public class Abhi{
@@ -23,4 +20,3 @@ public class Abhi{
     } 
 }
 ```
-
