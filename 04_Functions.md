@@ -229,7 +229,44 @@ public class Abhi {
     }
     public static void main(String args[]){
 
-        binTodec(1001);                                            // Output : 9
+        binTodec(1001);                                            // Output : Decimal of 1001 = 9
+    } 
+}
+```
+
+# # Convert From Decimal to Binary
+
+### Conversion steps:
+
+**1.** Divide the number by 2.  
+**2.** Get the integer quotient for the next iteration.  
+**3.** Get the remainder for the binary digit.  
+**4.** Repeat the steps until the quotient is equal to 0.  
+
+<img src="https://github.com/user-attachments/assets/7f4dc1d8-4905-4657-92ca-cfb5052ba3f1" alt="Stack1" width="350" height="250">
+
+
+### Code for Conversion
+
+``` java
+public class Abhi {
+    public static void decTobin(int n){
+        int myNum = n;
+        int pow = 0;
+        int binNum = 0;
+
+        while (n>0) {
+            int rem = n % 2;
+            binNum = binNum + (rem * (int)Math.pow(10,pow));
+
+            pow ++;
+            n = n/2;
+        }
+        System.out.println("Binary of "+ myNum +"=" +binNum);
+    }
+    public static void main(String args[]){
+
+        decTobin(9);                                          // Output : Binary of 9 = 1001
     } 
 }
 ```
