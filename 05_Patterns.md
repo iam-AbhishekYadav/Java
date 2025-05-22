@@ -27,8 +27,8 @@ public class Abhi{
 
 ### Approach for problem solving
 
-- No. of Lines(4) ---> Outer Loop
-- No. of times Char Print ---> Inner Loop
+- Outer Loop ---> No. of Lines (4) 
+- Inner Loop ---> No. of times Char Print 
 - What to Print ? ---> **`*`**
 
 ``` java
@@ -45,8 +45,83 @@ public class Abhi{
 }
 ```
 
+# # Inverted - Star Pattern
 
+<img src="https://github.com/user-attachments/assets/e225a649-460d-479d-bffa-d92fd8e9b8fd"  width="200" height="200">
 
+### Approach for problem solving
+
+- Outer Loop ---> No. of Lines (4)
+- Inner Loop ---> Star = **n - Line + 1** 
+
+``` java
+public class Abhi{
+    public static void main(String args[]){
+
+        int n = 4;                                  // n = No. of lines
+        
+        for (int line = 1;  line <= n ; line++) {
+            for (int star = 1; star <= (n-line+1); star++) {
+                System.err.print("*");
+            }
+            System.out.println();
+        }
+    } 
+}
+```
+
+# # Half - Pyramid Pattern
+
+<img src="https://github.com/user-attachments/assets/1f3b7f2a-338d-4212-ba45-fdbb2fe6de51"  width="200" height="250">
+
+### Approach for problem solving
+
+- Outer Loop ---> No. of Lines (4) 
+- Inner Loop ---> Inner Loop runs = No. of Lines
+- What to Print ? ---> Inner Loop Count
+
+``` java
+public class Abhi{
+
+    public static void main(String args[]){
+        
+        for (int line = 1;  line <= 4 ; line++) {
+            for (int number = 1; number <= line; number++) {
+                System.err.print(number);
+            }
+            System.out.println();
+        }
+    } 
+}
+```
+
+# # Character Pattern
+
+<img src="https://github.com/user-attachments/assets/112cba91-6daf-490c-a3b0-15ebe65bbe9d"  width="200" height="250">
+
+### Approach for problem solving
+
+- Outer Loop ---> No. of Lines (4) 
+- Inner Loop ---> Char Count = No. of Lines
+- What to Print ? ---> Increace char every time
+
+``` java
+public class Abhi{
+    public static void main(String args[]){
+
+        char ch = 'A';
+
+        for (int line = 1;  line <= 4 ; line++) {
+            for (int number = 1; number <= line; number++) {
+
+                System.err.print(ch);
+                ch ++;                                // For increasing char.
+            }
+            System.out.println();
+        }
+    } 
+}
+```
 
 
 
