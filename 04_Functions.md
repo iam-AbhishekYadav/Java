@@ -128,8 +128,58 @@ public class Abhi {
 
 **Ex -->** sum , factorial , product ....etc.
 
+# # Function Overloading
 
+- Multiple function with the same name but different parameters within a class.
+- Overloading does not depend on the return type of the method, two methods cannot be overloaded by just changing the return type.
 
+## Different Ways of Method Overloading in Java
+
+**1. Changing the Number of Parameters**
+
+``` java
+public class Abhi {
+    public static int sum(int a,int b){
+
+        int sum = a + b ;
+        return sum ;
+    }
+
+    public static int sum(int a,int b,int c){
+
+        int sum = a + b + c;
+        return sum ;
+    }
+    public static void main(String args[]){
+
+        System.err.println(sum(5, 4));                       // Output : 9
+        System.err.println(sum(5, 4, 3));                    // Outpot : 12
+    }
+}
+```
+
+**1. Changing Data Types of the Arguments**
+
+``` java
+public class Abhi {
+    public static int sum(int a,int b){
+
+        int sum = a + b ;
+        return sum ;
+    }
+
+    public static float sum(float a,float b){
+
+        float sum = a + b ;
+        return sum ;
+    }
+    public static void main(String args[]){
+
+        System.err.println(sum(5, 4));                           // Output : 9
+        System.err.println(sum(5f, 4.3f));                       // Output : 9.3
+    }
+}
+```
 
 
 
