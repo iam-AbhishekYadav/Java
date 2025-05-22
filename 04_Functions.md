@@ -1,4 +1,4 @@
-# # Functions or Methods
+ # # Functions or Methods
 
 - **Java** Methods are blocks of code that perform a specific task.
 - A method allows us to reuse code, improving both efficiency and organization.
@@ -207,8 +207,32 @@ public class Abhi {
 
 **Ex -->** 1101<sub>2</sub> =  1 × 2<sup>3</sup> + 1 × 2<sup>2</sup> + 0 × 2 <sup>1</sup> + 1 × 2 <sup>0</sup> = 13<sub>10</sub>
 
+<img src="https://github.com/user-attachments/assets/85a4c74c-3f9e-4c83-ae96-c371f5c64f50" alt="Stack1" width="450" height="250">
 
+### Code for Conversion
 
+``` java
+public class Abhi {
+    public static void binTodec(int binNum){
+        int myNum = binNum;
+        int pow = 0;
+        int decNum = 0;
+
+        while (binNum>0) {
+            int lastDigit = binNum % 10;
+            decNum = decNum + (lastDigit * (int)Math.pow(2, pow));
+
+            pow ++;
+            binNum = binNum/10;
+        }
+        System.out.println("Decimal of "+ myNum +"=" +decNum);
+    }
+    public static void main(String args[]){
+
+        binTodec(1001);                                            // Output : 9
+    } 
+}
+```
 
 
 
