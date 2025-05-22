@@ -198,7 +198,14 @@ public class Abhi {
 **Ex -->** 653<sub>10</sub> = 6 × 10<sup>2</sup> + 5 × 10<sup>2</sup> + 3 × 10<sup>0</sup>
 
 
+# # Convert From Binary to Decimal
 
+- For binary number with n digits : -->  
+> **d<sub>n-1</sub> ... d<sub>3</sub> d<sub>2</sub> d<sub>2</sub> d<sub>0</sub>**
+- The decimal number is equal to the sum of binary digits (dn) times their power of 2 (2n):
+> Decimal = d<sub>0</sub> x 2<sup>0</sup> + d<sub>1</sub> x 2<sup>1</sup> + d<sub>2</sub> x 2<sup>2</sup> ....
+
+**Ex -->** 1101<sub>2</sub> =  1 × 2<sup>3</sup> + 1 × 2<sup>2</sup> + 0 × 2 <sup>1</sup> + 1 × 2 <sup>0</sup> = 13<sub>10</sub>
 
 
 
