@@ -181,7 +181,21 @@ public class Abhi {
 }
 ```
 
+# # Binary Number System
 
+- Binary number is a number expressed in the base 2 numeral system.
+- Binary number's digits have 2 symbols: zero (0) and one (1).
+- Each digit of a binary number counts a power of 2.
+
+**Ex -->** 1101<sub>2</sub> =  1 × 2<sup>3</sup> + 1 × 2<sup>2</sup> + 0 × 2 <sup>1</sup> + 1 × 2 <sup>0</sup>
+
+# # Decimal Number Sysytem
+
+- Decimal number is a number expressed in the base 10 numeral system.
+- Decimal number's digits have 10 symbols: 0,1,2,3,4,5,6,7,8,9.
+- Each digit of a decimal number counts a power of 10
+
+**Ex -->** 653<sub>10</sub> = 6 × 10<sup>2</sup> + 5 × 10<sup>2</sup> + 3 × 10<sup>0</sup>
 
 
 
