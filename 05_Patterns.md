@@ -166,6 +166,34 @@ public class Abhi{
 
 ### Approach for problem solving
 
+- Outer Loop ---> Total No. of Lines (n = 4).
+- What will be printed in each line ---> **Spaces + Stars**
+- No. of Rows (i) = Stars
+- No. of Spaces = **n-i**
+
+``` java
+public class Abhi{
+    public static void hollow_Rect(int n) {
+
+        for (int i = 1; i <= n; i++) {                               // Outer Loop
+
+            for (int j = 1; j <= n-i; j++) {                        // For Spaces
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <=i ; j++) {                           // For Stars
+
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }    
+    }
+    public static void main(String args[]){
+
+        hollow_Rect(4);
+    }
+} 
 
 
 
