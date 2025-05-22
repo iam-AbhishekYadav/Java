@@ -126,6 +126,7 @@ public class Abhi{
 # # Hollow Rectange Pattern
 
 <img src="https://github.com/user-attachments/assets/8c0373f9-9458-42eb-b708-a7f5d0a9effb"  width="200" height="200">
+<img src="https://github.com/user-attachments/assets/34e32868-b72d-440b-aeec-c379ee1727e5"  width="200" height="200">
 
 ### Approach for problem solving
 
@@ -173,7 +174,7 @@ public class Abhi{
 
 ``` java
 public class Abhi{
-    public static void hollow_Rect(int n) {
+    public static void half_Pyramid(int n) {
 
         for (int i = 1; i <= n; i++) {                               // Outer Loop
 
@@ -191,7 +192,7 @@ public class Abhi{
     }
     public static void main(String args[]){
 
-        hollow_Rect(4);
+        half_Pyramid(4);
     }
 }
 ```
