@@ -123,8 +123,41 @@ public class Abhi{
 }
 ```
 
+# # Hollow Rectange Pattern
 
+<img src="https://github.com/user-attachments/assets/8c0373f9-9458-42eb-b708-a7f5d0a9effb"  width="200" height="200">
 
+### Approach for problem solving
+
+- Boundary ---> **Row = 1 or 4**  and **Column = 1 or 5**
+- Outer Loop ---> Total Lines (Rows)
+- Inner Loop ---> Total Columns 
+- What will be printed inside each line ---> Check Condition
+  - Row = 1 || Col = 1 || Row = 4 || Col = 5
+ 
+``` java
+public class Abhi{ 
+    public static void hollow_Rect(int totRows, int totCols) {
+
+        for (int i=1; i<=totRows; i++) {
+                for (int j=1; j<=totCols ; j++) {
+
+                    if (i == 1 || i == totRows || j == 1  || j == totCols) {            // Cell - (i,j)
+                        System.out.print("*");
+                    } else{
+                        System.out.print(" ");
+                    }
+                }
+                System.out.println();
+            }  
+        }
+        
+    public static void main(String args[]){
+
+        hollow_Rect(4,5);
+    }
+}
+``` 
 
 
 
