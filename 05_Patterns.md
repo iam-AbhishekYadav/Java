@@ -197,11 +197,70 @@ public class Abhi{
 }
 ```
 
+# # Inverted Half - Pyramid with Numberds
 
+<img src="https://github.com/user-attachments/assets/951eaa21-b51d-4332-8544-22fcda12d2fc"  width="200" height="250">
 
+### Approach for problem solving
 
+- Outer Loop ---> Total No. of Lines (n = 5).
+- Number of Rows = **i**
+- Last Number of Line = **n - i + 1**
+- What to Print ? ---> Numbers (j)
 
+``` java
+public class Abhi{
+    public static void half_Pyramid_wthNumbers(int n){
 
+        for (int i = 1;  i <= n ; i++) {
+            for (int j = 1; j <= n-i+1; j++) {
+                System.err.print(j + " ");  
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main(String args[]){
+
+        half_Pyramid_wthNumbers(5);
+    }
+}
+```
+
+# # Floyd's Triangle
+
+<img src="https://github.com/user-attachments/assets/1b51cfb2-e956-46f3-9bf0-9444be29eb30"  width="250" height="200">
+
+### Approach for problem solving
+
+- Outer Loop ---> Total No. of Lines (n = 5).
+- Number of Rows = **i**
+- Counter ---> Increase Numbers
+- Number of Rows = Number of Counter
+- Inner Loop ---> Track no. of Counter Print
+
+``` java
+public class Abhi{
+    public static void floyds_triangle(int n){
+
+        int counter = 1 ;
+
+        for (int i = 1;  i <= n ; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.err.print(counter + " ");
+
+                counter ++;                                
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main(String args[]){
+
+        floyds_triangle(5);
+    }
+}
+```
  
 
 
