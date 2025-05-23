@@ -261,10 +261,45 @@ public class Abhi{
     }
 }
 ```
- 
 
+# # 0-1 Triangle
 
+<img src="https://github.com/user-attachments/assets/ea2e3a2e-adf7-4bce-ac0e-57c007902ce4"  width="200" height="250">
 
+<img src="https://github.com/user-attachments/assets/03d4f94a-72a8-4c06-838b-f9181abdc675"  width="200" height="250">
+
+### Approach for problem solving
+
+- Use Matrice approach
+- Outer Loop ---> Total No. of Lines (n = 5).
+- Number of Rows = **i**
+- Number of Column = **j**
+- (i + j) = Even ---> 1
+- (i + j) = Odd ---> 0
+
+``` java
+public class Abhi{ 
+    public static void zero_one_triangle(int n){
+
+        for (int i = 1;  i <= n ; i++) {
+            for (int j = 1; j <= i; j++) {
+                
+                if ((i+j) % 2 == 0) {
+                    System.out.print("1" + " ");
+                } else {
+                    System.out.print("0" + " ");
+                }                                
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main(String args[]){
+
+        zero_one_triangle(5);
+    }
+}
+```
 
 
 
