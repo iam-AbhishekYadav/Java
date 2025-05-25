@@ -46,4 +46,51 @@ public class Abhi{
 }
 ```
 
+# # Input / Output / Update on Array
+
+``` java
+import java.util.*;
+public class Abhi{
+    public static void main(String args[]){
+
+        Scanner sc = new Scanner(System.in);
+
+        int marks[] = new int[100];
+
+        marks[0] = sc.nextInt();                                            // Input : 90
+        marks[1] = sc.nextInt();                                            // Input : 75
+        marks[2] = sc.nextInt();                                            // Input : 80
+
+        System.out.println("Physics :" +marks[0]);                          // Output : Physics : 90
+        System.out.println("Chemistry :" +marks[1]);                        // Output : Chemistry : 75
+        System.out.println("Maths :" +marks[2]);                            // Output : Maths : 80
+
+        marks[2] = 89;                                                      // Update Maths marks by 89
+        System.out.println("Maths :" +marks[2]);                            // Output : Maths : 89                         
+
+        marks[1] = marks[1] + 2;                                            // Update Chemistry marks by +2
+        System.out.println("Chemistry :" +marks[1]);                        // Output : Chemistry : 77
+
+
+        int percentage = (marks[0] + marks[1] + marks[2]) / 3;             // Calculating % 
+        System.out.println("Percentage = " + percentage + "%");            // Percentage : 85 (According to updated marks)
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
