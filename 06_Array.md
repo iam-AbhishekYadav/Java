@@ -78,6 +78,41 @@ public class Abhi{
 }
 ```
 
+## Array as Function Arguments
+
+- When we pass an array to a method as an argument, **actually the address of the array in the memory is passed (reference)**.
+- Therefore, any changes to this array in the method will affect the array.
+
+### Example -->
+
+``` java
+public class Abhi{
+    public static void update(int marks[] , int nonChangeable){
+
+        nonChangeable = 10;
+
+        for (int i = 0; i < marks.length; i++){
+            marks[i] = marks[i] + 1;
+        }
+    }
+
+    public static void main(String args[]){
+
+        int marks[] = {97, 98, 99};
+        int nonChangeable = 5;
+
+        update(marks , nonChangeable);
+
+        System.out.println(nonChangeable);                         // Output : 5 (Call by Value)
+
+        for (int i = 0; i < marks.length; i++) {
+            System.out.print(marks[i] + " ");                     // Output : 98 99 100 (Call by Referance)
+        }
+        System.out.println();
+    }
+}
+```
+
 
 
 
