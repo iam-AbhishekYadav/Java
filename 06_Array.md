@@ -148,6 +148,46 @@ public class Abhi{
 }
 ```
 
+# # Largest Number 
+
+- In Java utility package (import java.util.*;)
+  - **`- ∞`** --> Integer. MIX_VALUE
+  - **`+ ∞`** --> Integer. MAX_VALUE
+
+
+
+### Ques --> Find the largest number in a given array {1 , 2 , 6 , 3 , 5}
+
+We compare all numbers by **- ∞** , then we get largest number.
+
+``` java
+import java.util.*;
+public class Abhi{
+    public static int getLargest(int number[]){
+
+        int largest = Integer.MIN_VALUE;
+
+        for (int i = 0; i < number.length; i++) {
+            if (largest < number[i]){
+                largest = number[i];
+            }
+        }
+        return largest;   
+    }
+
+    public static void main(String args[]){
+
+        int number[] = {1 , 2 , 6 , 3 , 5};
+
+        System.out.println("Largest number of Array is :"+ getLargest(number));         // Output : Largest number of Array is : 6
+
+    }
+}
+``` 
+
+
+
+
 
 
 
