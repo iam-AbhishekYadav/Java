@@ -80,7 +80,7 @@ public class Abhi{
 
 ## Array as Function Arguments
 
-- When we pass an array to a method as an argument, **actually the address of the array in the memory is passed (reference)**.
+- When we pass an array to a method as an argument, **`actually the address of the array in the memory is passed (reference)`**.
 - Therefore, any changes to this array in the method will affect the array.
 
 ### Example -->
