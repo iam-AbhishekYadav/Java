@@ -183,7 +183,14 @@ public class Abhi{
 
     }
 }
-``` 
+```
+
+# # Binary Search
+
+- It is an efficient algorithm for finding a target value within a sorted array.
+  - Sorted Array --> Elements are arranged in a specific order (Ascending or Descending)
+
+### 
 
 
 
