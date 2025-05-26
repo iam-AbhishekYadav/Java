@@ -253,6 +253,16 @@ public class Abhi{
 }
 ```
 
+### Time & Space Complexity
+
+**`Time Complexity`** ---> The amount of time taken by an algorithm to run as a function of the length of the input.  
+
+> [!IMPORTANT] 
+> **Time Complexity ∝ log<sub>2</sub>n**
+>  Time Complexity
+
+
+
 
 
 
