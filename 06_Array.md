@@ -199,7 +199,60 @@ public class Abhi{
 
 <img src="https://github.com/user-attachments/assets/da10f574-33c8-4776-8100-0185befb6ad2" width="500" height="500">
 
-###
+### Pseudo Code :
+
+**`1`** &nbsp; Start  
+**`2`** &nbsp; Take input array and Target  
+**`3`** &nbsp; Initialise start = 0 and end = (array size -1)  
+**`4`** &nbsp; Intialise mid variable  
+**`5`** &nbsp; Mid = (start+end)/2  
+**`6`** &nbsp; if array[mid] == target then return mid  
+**`7`** &nbsp; if array[mid] < target then start = mid+1  
+**`8`** &nbsp; if array[mid] > target then end = mid-1  
+**`9`** &nbsp; if start<=end then goto step 5  
+**`10`** &nbsp; Return -1 as target not found  
+**`11`** &nbsp; Exit  
+
+### Code --->
+
+``` java
+import java.util.*;
+public class Abhi{
+    public static int binarySearch(int number[], int key){
+
+        int start = 0 , end = number.length-1;
+
+        while (start <= end) {
+
+            int mid = (start + end) / 2;
+
+            if (number[mid] == key) {
+                return mid;
+            }
+
+            if (number[mid] < key) {
+                start = mid + 1;
+            }
+
+            else{
+                end = mid - 1;
+            }
+            
+        }
+        return -1 ;
+        
+    }
+
+    public static void main(String args[]){
+
+        int number[] = {1 , 2, 3, 4, 5, 6, 7, 8, 9, 10} ;
+        int key = 7;
+
+        System.out.println("Index for Key is :" + binarySearch(number, key));
+    }
+}
+```
+
 
 
 
