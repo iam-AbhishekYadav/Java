@@ -190,14 +190,14 @@ public class Abhi{
 - It is an efficient algorithm for finding a target value within a sorted array.
   - Sorted Array --> Elements are arranged in a specific order (Ascending or Descending)
 
-### 
+### How it Works : 
 
+**`Step-1`** &nbsp; Check the value in the center of the array.  
+**`Step-2`** &nbsp; If the target value is lower, search the left half of the array. If the target value is higher, search the right half.  
+**`Step-3`** &nbsp; Continue step 1 and 2 for the new reduced part of the array until the target value is found or until the search area is empty.  
+**`Step-4`** &nbsp; If the value is found, return the target value index. If the target value is not found, return -1.  
 
-
-
-
-
-
+<img src="https://github.com/user-attachments/assets/da10f574-33c8-4776-8100-0185befb6ad2" width="500" height="300">
 
 
 
