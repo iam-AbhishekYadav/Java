@@ -90,6 +90,96 @@ public class Abhi {
 }
 ```
 
+# # Print the first n factorial numbers.
+
+### Approach to Solve a problem
+
+- **factorial = factorial * i**
+
+``` java
+import java.util.*;
+public class Abhi {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();                    // Input : 5
+        int fact = 1;
+
+        for (int i = 1; i <=n; i++) {
+            fact = fact * i;
+        }
+        System.out.println(fact);                // Output : 120
+    }
+}
+```
+
+# # Find the sun of the following series ---> S = 1 - 2 + 3 - 4 ....n
+
+### Approach to Solve a problem
+
+- Odd Numbers ---> **+ve**
+- Even Numbers ---> **-v**
+- If Odd add 1
+- If Even substract 1
+
+``` java
+import java.util.*;
+public class Abhi {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();                    // Input : 5
+        int sum = 0;
+
+        for (int i = 1; i <=n; i++) {
+            if (i % 2 == 0) {
+                sum -= i;
+            } else {
+                sum += i;
+            }
+        }
+        System.out.println(sum);                  // Output : 3
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
