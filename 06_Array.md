@@ -253,7 +253,7 @@ public class Abhi{
 }
 ```
 
-### Time & Space Complexity
+# # Time & Space Complexity
 
 **`Time Complexity`** ---> The amount of time required by the algorithm to execute to completion.
 
