@@ -255,11 +255,18 @@ public class Abhi{
 
 ### Time & Space Complexity
 
-**`Time Complexity`** ---> The amount of time taken by an algorithm to run as a function of the length of the input.  
+**`Time Complexity`** ---> The amount of time required by the algorithm to execute to completion.
 
 > [!IMPORTANT] 
 > **Time Complexity ∝ log<sub>2</sub>n**  
 >  **Time Complexity = Olog<sub>2</sub>n**
+
+**`Space Complexity`** ---> The amount of memory space needed the algorithm in its life cycle.
+
+> [!IMPORTANT]
+> **Space Complexity = O(1)**
+
+
 
 
 
