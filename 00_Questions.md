@@ -145,7 +145,30 @@ public class Abhi {
 }
 ```
 
+# Given 2 numbers a and b , Find a raise to power b.
 
+### Approach to Solve a problem
+
+- Outer loop ---> Run b - times
+- **Answer = Ans * a**
+
+``` java
+import java.util.*;
+public class Abhi {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int a = sc.nextInt() , b = sc.nextInt();                    // Input : a = 2 , b = 5
+        int ans = 1;
+
+        for (int i = 1; i <=b; i++) {
+            ans = ans * a ;
+        }
+        System.out.println(ans);                  // Output : 32
+    }
+}
+```
 
 
 
