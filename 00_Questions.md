@@ -1,1 +1,85 @@
-#
+# Questions
+
+# # Count the numbers of digits for a given number n.
+
+### Approach to Solve a problem
+
+- Divide n by 10 until &nbsp;**n > 0** &nbsp; &nbsp;---> Integer Division
+- Count the number of Division.
+
+``` java
+import java.util.*;
+public class Abhi {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();                    // Input : 12345678
+        int numOfDigits = 0;
+        int originalNmber = n;
+
+        while (n > 0) {
+            n = n/10;
+
+            numOfDigits ++;
+        }
+        System.out.println("Number of digits in " + originalNmber + "=" + numOfDigits);          // Output : Number of digits in 12345678 = 8
+    }
+}
+```
+
+# # Find the sun of digits in a given number n.
+
+### Approach to Solve a problem
+
+- Modulo n by 10 = Last digit of number(n)
+- Divide n by 10 until &nbsp;**n > 0** &nbsp; &nbsp;---> Integer Division
+- Add Last digit of number in Answer &nbsp; &nbsp;---> **Ans += n % 10**
+
+``` java
+import java.util.*;
+public class Abhi {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();                    // Input : 12345
+        int sumOfDigits = 0;
+        int originalNmber = n;
+
+        while (n > 0) {
+            sumOfDigits += n%10;
+            n = n/10;
+        }
+        System.out.println("Sum of digits in " + originalNmber + "=" + sumOfDigits);          // Output : Sum of digits in 12345 = 15
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
