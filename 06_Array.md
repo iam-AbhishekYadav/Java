@@ -285,6 +285,7 @@ public class Abhi{
 
 - Time Complexity ---> **`O(n)`**
 - Space Complexity ---> **`O(1)`** {Constant}
+
 ``` java
 public class Abhi {
     public static void reversed(int number[]){
@@ -309,7 +310,7 @@ public class Abhi {
         for (int i = 0 ; i < number.length ; i++) {
             System.out.print(number[i]+" ");
         }
-        System.out.println();
+        System.out.println();                                   // Output : 10 8 6 4 2 
     }
 }
 ```
@@ -328,6 +329,8 @@ public class Abhi {
 - Outer Loop ---> Elements of Array
 - Current Number ---> (2,4,6,8,10)
 - Inner Loop for Current No. ---> Pair with Current Number
+
+<img src="https://github.com/user-attachments/assets/3355ed86-bbd0-458c-a0ba-8003660533cb" width="500" height="300">
 
 ### Total No. of Pairs  
 
@@ -358,15 +361,16 @@ public class Abhi {
             }
             System.out.println();
         }
-        System.out.println("Total No. of Pairs =" + totalPairs);
+        System.out.println("Total No. of Pairs = " + totalPairs);                       // Output : Total No. of Pairs = 10
     }
 
     public static void main(String[] args) {
 
         int number[] = {2, 4, 6, 8, 10};
-        pair(number);
-    }
-}
+        pair(number);                                                                  // Output :  // (2,4)(2,6)(2,8)(2,10)
+      }                                                                                             // (4,6)(4,8)(4,10)
+   }                                                                                                // (6,8)(6,10)
+                                                                                                    // (8,10)
 ```
 
 
