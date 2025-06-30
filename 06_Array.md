@@ -151,7 +151,7 @@ public class Abhi{
 # # Largest Number 
 
 - In Java utility package (import java.util.*;)
-  - **`- ∞`** --> Integer. MIX_VALUE
+  - **`- ∞`** --> Integer. MIN_VALUE
   - **`+ ∞`** --> Integer. MAX_VALUE
 
 
