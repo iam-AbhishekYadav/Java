@@ -267,6 +267,53 @@ public class Abhi{
 > **Space Complexity = O(1)**
 
 
+# # Question on Array
+
+## 1. Reverse Array
+
+<img src="https://github.com/user-attachments/assets/1a3c3b41-8d91-4a39-b806-aa41d9e65679" width="500" height="100">
+
+### Approach to Solve a problem
+
+- Swap 1st index value to Last index value one by one.
+- Then array is reversed.
+
+<img src="https://github.com/user-attachments/assets/62101d64-b01a-4edb-a432-8749c3e59deb" width="500" height="250">
+
+``` java
+public class Abhi {
+    public static void reversed(int number[]){
+        int start = 0 , end = number.length - 1;
+
+        while(start < end){
+            int temp = number[end];
+            number[end] = number[start];
+            number[start] = temp;
+
+            start ++;
+            end --;
+        }
+    }
+
+    public static void main(String[] args) {
+
+        int number[] = {2,4,6,8,10}; 
+
+        reversed(number);
+
+        for (int i = 0 ; i < number.length ; i++) {
+            System.out.print(number[i]+" ");
+        }
+        System.out.println();
+    }
+}
+```
+
+> [!NOTE]
+> Take 3 extra space ---> Start , End , Temp
+> Time Complexity ---> **O(n)**
+> Space Complexity ---> **O(1)**
+
 
 
 
