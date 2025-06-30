@@ -280,6 +280,11 @@ public class Abhi{
 
 <img src="https://github.com/user-attachments/assets/62101d64-b01a-4edb-a432-8749c3e59deb" width="500" height="250">
 
+
+### Time and Space Complexity
+
+- Time Complexity ---> **`O(n)`**
+- Space Complexity ---> **`O(1)`** {Constant}
 ``` java
 public class Abhi {
     public static void reversed(int number[]){
@@ -310,9 +315,62 @@ public class Abhi {
 ```
 
 > [!NOTE]
-> Take 3 extra space ---> Start , End , Temp
-> Time Complexity ---> **O(n)**
-> Space Complexity ---> **O(1)**
+> Take 3 extra space ---> Start , End , Temp  
+
+
+## 2. Pairs of an Array
+
+<img src="https://github.com/user-attachments/assets/1a3c3b41-8d91-4a39-b806-aa41d9e65679" width="500" height="100">
+
+### Approach to Solve a problem
+
+- Nested Loops
+- Outer Loop ---> Elements of Array
+- Current Number ---> (2,4,6,8,10)
+- Inner Loop for Current No. ---> Pair with Current Number
+
+### Total No. of Pairs  
+
+- n ---> Number of Elements
+- T.P --->**`n(n-1)/2`**
+
+### Time Complexity  
+
+- Nested Loop
+- Time Complexity ---> **`O(n<sup>2</sup>)`**
+  - Outer Loop ---> **`O(n)`** &nbsp; &nbsp; {In Worst Case}
+  - Inner Loop ---> **`n + (n-1) + (n-2) + (n-3) .... + 1`** &nbsp; &nbsp; {∝ O(n<sup>2</sup>)}
+
+``` java
+public class Abhi {
+    public static void pair(int number[]){
+
+        int totalPairs = 0;
+
+        for (int i = 0; i < number.length; i++) {
+
+            int curr = number[i];
+
+            for (int j = i+1 ; j < number.length; j++) {
+                System.out.print("(" + curr + "," + number[j] + ")");
+
+                totalPairs ++;
+            }
+            System.out.println();
+        }
+        System.out.println("Total No. of Pairs =" + totalPairs);
+    }
+
+    public static void main(String[] args) {
+
+        int number[] = {2, 4, 6, 8, 10};
+        pair(number);
+    }
+}
+```
+
+
+
 
 
 
