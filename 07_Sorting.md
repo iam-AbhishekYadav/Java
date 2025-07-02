@@ -21,7 +21,7 @@ The following two types of sorting algorithms can be broadly classified:
 
 ## How does Bubble Sort Work ?
 
-<img src="https://github.com/user-attachments/assets/8ffd8620-51bd-4e0c-ab58-4091553d2a39" width="400" height="250">  
+<img src="https://github.com/user-attachments/assets/8ffd8620-51bd-4e0c-ab58-4091553d2a39" width="500" height="300">  
 
 <img src="https://github.com/user-attachments/assets/8fe42337-c367-403c-abf3-4e118ffd1001" width="500" height="300">  
 
