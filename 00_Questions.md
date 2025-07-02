@@ -30,7 +30,7 @@ public class Abhi {
 }
 ```
 
-# # Find the sun of digits in a given number n.
+# # Find the sum of digits in a given number n.
 
 ### Approach to Solve a problem
 
