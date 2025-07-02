@@ -340,7 +340,7 @@ public class Abhi {
 ### Time Complexity  
 
 - Nested Loop
-- Time Complexity ---> **`O(n<sup>2</sup>)`**
+- Time Complexity ---> **O(n<sup>2</sup>)**
   - Outer Loop ---> **`O(n)`** &nbsp; &nbsp; {In Worst Case}
   - Inner Loop ---> **`n + (n-1) + (n-2) + (n-3) .... + 1`** &nbsp; &nbsp; {∝ O(n<sup>2</sup>)}
 
