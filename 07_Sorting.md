@@ -27,7 +27,7 @@ The following two types of sorting algorithms can be broadly classified:
 
 <img src="https://github.com/user-attachments/assets/a97e389c-7055-45df-a3dc-94b1e690bec3" width="500" height="300">  
 
-
+- Total No. of Passes/Turns/Stes ---> **n-1**
 
 
 
